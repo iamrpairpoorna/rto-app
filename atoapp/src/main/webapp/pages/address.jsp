@@ -140,7 +140,7 @@ label.error {
 							required /></td>
 					</tr>
 					<tr>
-						<td>City Name</td>
+						<td>city Name</td>
 						<td><input type="text" name="owner_city" size="30" required /></td>
 					</tr>
 					<tr>
