@@ -1,0 +1,32 @@
+30-12-2019 13:21:32.978 [main] INFO  com.rto.AtoappApplication.logStarting - Starting AtoappApplication on DESKTOP-S261OA3 with PID 28136 (C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atoapp\target\classes started by hp in C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atoapp)
+30-12-2019 13:21:33.027 [main] INFO  com.rto.AtoappApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+30-12-2019 13:21:34.534 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+30-12-2019 13:21:34.622 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 4 repository interfaces.
+30-12-2019 13:21:34.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+30-12-2019 13:21:35.268 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8181 (http)
+30-12-2019 13:21:35.279 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-12-2019 13:21:35.280 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+30-12-2019 13:21:35.574 [main] INFO  org.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-12-2019 13:21:35.582 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-12-2019 13:21:35.582 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2283 ms
+30-12-2019 13:21:35.787 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+30-12-2019 13:21:35.874 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.4.8.Final}
+30-12-2019 13:21:36.094 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+30-12-2019 13:21:36.200 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+30-12-2019 13:21:37.556 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+30-12-2019 13:21:37.572 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+30-12-2019 13:21:38.593 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-12-2019 13:21:38.603 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-12-2019 13:21:39.430 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-12-2019 13:21:39.640 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+30-12-2019 13:21:39.841 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-12-2019 13:21:39.900 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page template: index
+30-12-2019 13:21:40.032 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-12-2019 13:21:40.053 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-12-2019 13:21:40.112 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-12-2019 13:21:40.535 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8181 (http) with context path ''
+30-12-2019 13:21:40.537 [main] INFO  com.rto.AtoappApplication.logStarted - Started AtoappApplication in 8.103 seconds (JVM running for 11.489)
+30-12-2019 13:25:33.628 [http-nio-8181-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-12-2019 13:25:33.629 [http-nio-8181-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+30-12-2019 13:25:33.646 [http-nio-8181-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 16 ms
+30-12-2019 13:25:33.691 [http-nio-8181-exec-1] INFO  com.rto.controller.HomeController.home - In the home page
