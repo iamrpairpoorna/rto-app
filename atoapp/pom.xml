@@ -12,6 +12,7 @@
 	<groupId>com.rto</groupId>
 	<artifactId>atoapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>atoapp</name>
 	<description>rto application for registration of vehicles</description>
 
